@@ -1,0 +1,722 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+}
+
+.head{
+    padding: 10px;
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px;
+}
+
+.head .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.head .navbar .logo{
+    height: 8em;
+    width: 8em;
+}
+
+.head .navbar .logo1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0693e3;
+}
+
+.head .navbar-list{
+    padding: 20px;
+}
+.head .navbar-list button{
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+.head .navbar-list .button1{
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #ffa200;
+    height: 4em;
+    width: 22em;
+    margin: 0 15px;
+}
+.head .navbar-list .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 18em;
+}
+
+.head .navbar-list .button1:hover{
+    background-color: #ffa200;
+    transition: all ease 0.5s;
+}
+
+.head .navbar-list .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.container .fist{
+    width: 40%;
+    margin: 90px;
+}
+
+.container .fist p{
+    font-size: 18px;
+}
+
+.container .fist .fistcontaine{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0693e3;
+    padding: 50px 0px;
+}
+
+.container .fist .nav1{
+    padding: 25px 0px;
+    display: flex;
+}
+
+.container .fist button{
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+.container .fist .nav1 .button1{
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(12, 33, 59, .3);
+    border-color: transparent;
+    height: 4em;
+    width: 15em;
+    margin: 0 15px;
+}
+.container .fist .nav1 .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+}
+
+.container .fist .nav1 .button1:hover{
+    border-color: rgba(12, 33, 59, .1);
+    background-color: transparent;
+    transition: all ease 0.5s;
+}
+
+.container .fist .nav1 .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.container .second{
+    width: 60%;
+}
+
+.container .second .image1{
+    width: 100%;
+    height: 50vw;
+    border-bottom-left-radius: 105px;
+}
+
+.container1{
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    box-sizing: border-box;
+    margin: 100px 0;
+}
+.container1 fieldset{
+    margin: 0 20px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(12, 33, 59, .1);
+    padding: 15px 15px;
+}
+
+.container1 fieldset legend {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container1 fieldset legend img{
+    width: 50px;
+    background-color: rgba(34, 66, 105, 0.132);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 50px;
+    border-radius: 50%;
+}
+
+.container1 fieldset .carte{
+    font-size: 25px;
+    color: #0693e3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 fieldset p{
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.container1 fieldset .button2{
+    background-color: #0693e3;
+    font-weight: bold;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px;
+    cursor: pointer;
+}
+.container1 fieldset .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.container2{
+    width: 100%;
+    height: 40vw;
+    background-color: rgba(245, 245, 220, 0.714);
+    display: flex;
+}
+
+.container2 .one{
+    width: 50%;
+}
+
+.container2 .one img{
+    width: 100%;
+    height: 40vw;
+    border-top-right-radius: 105px;
+}
+
+.container2 .two{
+    width: 30%;
+    margin: 0 100px;
+}
+
+.container2 .two .fistcontaine{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0693e3;
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container2 .two .nav1{
+    padding: 25px 0px;
+    display: flex;
+}
+
+.container2 .two button{
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+.container2 .two .nav1 .button1{
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffa200;
+    border-color: transparent;
+    height: 4em;
+    width: 15em;
+    margin: 0 15px;
+}
+.container2 .two .nav1 .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+}
+
+.container2 .two .nav1 .button1:hover{
+    border-color: #ffa200;
+    background-color: transparent;
+    transition: all ease 0.5s;
+}
+
+.container2 .two .nav1 .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.container3{
+    width: 100%;
+    height: 15vw;
+    background-color: #0693e3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .rond1{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 90px;
+}
+.container3 .rond1 h1{
+    background-color: #ffa200;
+    border-radius: 50%;
+    color: #0693e3;
+    padding: 30px;
+    height: 2em;
+    width: 2em;
+}
+.container3 .rond1 p{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.container3 .rond2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container3 .rond2 h1{
+    background-color: #ffa200;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    color: #0693e3;
+    padding: 30px;
+}
+
+.container3 .rond2 p{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.container3 .rond3{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container3 .rond3 h1{
+    background-color: #ffa200;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    color: #0693e3;
+    padding: 30px;
+}
+
+.container3 .rond3 p{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.container4{
+    margin: 60px;
+    width: 80%;
+}
+
+.container4 h1{
+    color: #0693e3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.container5{
+    width: 95%;
+    display: flex;
+    height: 50vh;
+    margin: 50px 25px;
+}
+
+.container5 .one{
+    width: 50%;
+    display: flex;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.container5 .one .un{
+    width: 50%;
+}
+
+.container5 .one .un img{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.container5 .one .deux{
+    width: 50%;
+}
+
+.container5 .one .deux h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0693e3;
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container5 .one .deux p{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.container5 .one .deux .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+    font-weight: bold;
+    margin: 25px 50px;
+}
+
+
+.container5 .one .deux .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.container5 .two{
+    width: 50%;
+    display: flex;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    margin: 0 25px;
+}
+
+.container5 .two .un{
+    width: 50%;
+}
+
+.container5 .two .un img{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.container5 .two .deux{
+    width: 50%;
+}
+
+.container5 .two .deux h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0693e3;
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container5 .two .deux p{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.container5 .two .deux .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+    font-weight: bold;
+    margin: 25px 50px;
+}
+
+
+.container5 .two .deux .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+.nouvelles h1{
+    margin: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6em;
+    color: orange;
+
+}
+.carte-presentation{
+    width: 90%;
+    height: 50vh;
+    margin: 50px 30px;
+    display: flex;
+}
+
+.carte-presentation .div-carte{
+    width: 30%;
+    height: 50vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    border-radius: 25px;
+    margin: 25px 20px;
+}
+
+.carte-presentation .div-carte .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+    font-weight: bold;
+    margin: 25px 50px;
+}
+
+.carte-presentation .div-carte .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.carte-presentation .div-carte .carte1 img{
+    width: 100%;
+    height: 25vh;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+
+.carte-presentation .div-carte .carte2 p{
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.carte-presentation .div-carte1{
+    width: 30%;
+    height: 50vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    border-radius: 25px;
+    margin: 25px 20px;
+}
+
+.carte-presentation .div-carte1 .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+    font-weight: bold;
+    margin: 25px 50px;
+}
+
+.carte-presentation .div-carte1 .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.carte-presentation .div-carte1 .carte1 img{
+    width: 100%;
+    height: 25vh;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.carte-presentation .div-carte1 .carte2 p{
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.carte-presentation .div-carte2{
+    width: 30%;
+    height: 50vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    border-radius: 25px;
+    margin: 25px 20px;
+}
+
+.carte-presentation .div-carte2 .button2{
+    background-color: #0693e3;
+    border-color: transparent;
+    color: white;
+    height: 4em;
+    width: 15em;
+    font-weight: bold;
+    margin: 25px 50px;
+}
+
+.carte-presentation.div-carte2 .button2:hover{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0693e3;
+    color: #102634;
+    transition: all ease 0.5s;
+}
+
+.carte-presentation .div-carte2 .carte1 img{
+    width: 100%;
+    height: 25vh;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.carte-presentation .div-carte2 .carte2 p{
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.separation{
+    width: 90vw;
+    height: 10vh;
+}
+
+.fin{
+    background-color: #102634;
+    height: 25vh;
+    width: 98.5vw;
+}
+
+.fin h1{
+    color: #0693e3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+.fin .foot{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+
+.fin .active{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.head .menu{
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: 800px;
+    height: 3em;
+    width: 3em;
+}
+
+@media screen and (max-width : 925px){
+    
+    .head{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .head .menu{
+        display: block;
+    }
+
+    .navbar-list{
+        display: none;
+
+    }
+}
